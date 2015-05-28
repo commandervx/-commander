@@ -1,0 +1,24 @@
+E:\Visual Studio 2013\Projects\tra\tra\bin\Debug\tra.exe
+E:\Visual Studio 2013\Projects\tra\tra\bin\Debug\tra.exe.config
+E:\Visual Studio 2013\Projects\tra\tra\obj\Debug\tra.登录.resources
+E:\Visual Studio 2013\Projects\tra\tra\obj\Debug\tra.欢迎界面.resources
+E:\Visual Studio 2013\Projects\tra\tra\obj\Debug\tra.Properties.Resources.resources
+E:\Visual Studio 2013\Projects\tra\tra\obj\Debug\tra.csproj.GenerateResource.Cache
+E:\Visual Studio 2013\Projects\tra\tra\obj\Debug\tra.exe
+E:\Visual Studio 2013\Projects\tra\tra\obj\Debug\tra.pdb
+E:\Visual Studio 2013\Projects\tra\tra\bin\Debug\tra.pdb
+E:\Visual Studio 2013\Projects\tra\tra\obj\Debug\tra.交易.resources
+E:\Visual Studio 2013\Projects\tra\tra\obj\Debug\tra.上海.resources
+E:\Visual Studio 2013\Projects\tra\tra\obj\Debug\tra.北京.resources
+E:\Visual Studio 2013\Projects\tra\tra\obj\Debug\tra.深圳.resources
+E:\Visual Studio 2013\Projects\tra\tra\obj\Debug\tra.系统界面.resources
+E:\Visual Studio 2013\Projects\tra\tra\obj\Debug\tra.增加.resources
+E:\Visual Studio 2013\Projects\tra\tra\obj\Debug\tra.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2013\Projects\tra\tra\obj\Debug\tra.浏览.resources
+E:\Visual Studio 2013\Projects\tra\tra\obj\Debug\tra.订单.resources
+F:\tra\tra\bin\Debug\tra.exe.config
+F:\tra\tra\obj\Debug\tra.exe
+F:\tra\tra\obj\Debug\tra.pdb
+H:\tra\tra\bin\Debug\tra.exe.config
+H:\tra\tra\obj\Debug\tra.exe
+H:\tra\tra\obj\Debug\tra.pdb

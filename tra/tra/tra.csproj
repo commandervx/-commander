@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B3D07069-4A59-453E-A773-3DFCEBA6EC91}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>tra</RootNamespace>
+    <AssemblyName>tra</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="订单.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="订单.Designer.cs">
+      <DependentUpon>订单.cs</DependentUpon>
+    </Compile>
+    <Compile Include="浏览.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="浏览.Designer.cs">
+      <DependentUpon>浏览.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListViewHelper.cs" />
+    <Compile Include="OperateFile.cs" />
+    <Compile Include="Present.cs" />
+    <Compile Include="增加.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="增加.Designer.cs">
+      <DependentUpon>增加.cs</DependentUpon>
+    </Compile>
+    <Compile Include="系统界面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="系统界面.Designer.cs">
+      <DependentUpon>系统界面.cs</DependentUpon>
+    </Compile>
+    <Compile Include="交易.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="交易.Designer.cs">
+      <DependentUpon>交易.cs</DependentUpon>
+    </Compile>
+    <Compile Include="上海.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="上海.Designer.cs">
+      <DependentUpon>上海.cs</DependentUpon>
+    </Compile>
+    <Compile Include="北京.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="北京.Designer.cs">
+      <DependentUpon>北京.cs</DependentUpon>
+    </Compile>
+    <Compile Include="深圳.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="深圳.Designer.cs">
+      <DependentUpon>深圳.cs</DependentUpon>
+    </Compile>
+    <Compile Include="登录.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="登录.Designer.cs">
+      <DependentUpon>登录.cs</DependentUpon>
+    </Compile>
+    <Compile Include="欢迎界面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="欢迎界面.Designer.cs">
+      <DependentUpon>欢迎界面.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="订单.resx">
+      <DependentUpon>订单.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="浏览.resx">
+      <DependentUpon>浏览.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="增加.resx">
+      <DependentUpon>增加.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="系统界面.resx">
+      <DependentUpon>系统界面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="交易.resx">
+      <DependentUpon>交易.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="上海.resx">
+      <DependentUpon>上海.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="北京.resx">
+      <DependentUpon>北京.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="深圳.resx">
+      <DependentUpon>深圳.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="登录.resx">
+      <DependentUpon>登录.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="欢迎界面.resx">
+      <DependentUpon>欢迎界面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
